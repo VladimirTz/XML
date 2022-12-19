@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<myskils>
+	<number1>1. Базовая теория (Что такое тестирование, багрепорты, документация, виды, методы, направления тестирования и т.п.) SDLC, STLC.</number1>
+	<number2>2. Что такое клиент-серверная архитектура.</number2>
+	<number3>3. HTTP Методы запросов на сервер.</number3>
+	<number4>4. Коды ответов HTTP сервера.</number4>
+	<number5>5. Структуры HTTP запросов и ответов.</number5>
+	<number6>6. Что такое JSON, XML. Их структура.</number6>
+	<number7>7. Тестирование API через Postman (JS, автотесты API).</number7>
+	<number8>8. Снятие и чтение логов c внешнего сервера.</number8>
+	<number9>9. Снифинг http web трафика через Charles и Fiddler.</number9>
+	<number10>10. Dev Tools веб браузеров (Google Chrome, FireFox).</number10>
+	<number11>11. VPN. (Как работает, зачем нужен, как использовать, варианты инструментов).</number11>
+	<number12>12. Мобильное тестирование.</number12>
+	<number13>13. Особенность iOS, Android, гайдлайны.</number13>
+	<number15>15. Сборка Android приложений на Android Studio.</number15>
+	<number16>16. ADB (управление андройд девайсами).</number16>
+	<number17>17. Настройка прокси и vpn на iOS и Android.</number17>
+	<number18>18. Перехват (сниффинг) мобильного трафика через Charles и Fiddler на iOS и Android.</number18>
+	<number19>19. Командная строка (terminal) Linux (копирование, создание, просмотр, перемещение файлов на серверах без графического интерфейса).</number19>
+	<number20>20. Основы bash скриптинг, автоматизация рутинных задач на сервере.</number20>
+	<number21>21. Доступ к удалённым серверам.</number21>
+	<number22>22. Основы SQL (Create, Delete, Drop, Insert Into, Select, From, Where, Join).</number22>
+	<number23>23. База данных Postgres (установка, настройка и использование).</number23>
+	<number24>24. Нереляционная база данных Redis (установка, настройка и использование).</number24>
+	<number25>25. Нагрузочное тестирование в Jmeter.</number25>
+	<number26>26. Методология разработки Scrum.</number26>
+	<number27>27. Python. (Изучение основ. Создание клиент серверного приложения).</number27>
+</myskils>
