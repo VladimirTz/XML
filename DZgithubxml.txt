@@ -1,0 +1,91 @@
+GIT Homework 1
+Для выполнения задания у вас должен быть установлен для Windows - GitBash.
+Создан аккаунт в GitHub
+
+Все шаги сценария выполняйте в терминале GitBush, Terminal, в папке под гитом.
+
+ 1. Создайте текстоовый файл как в первом ДЗ по Terminal:
+touch DZgithubxml.txt
+ 2. Сценарий перенесите в этот файл.
+ 3. На против каждого действия - напишите команду в GitBash
+
+# XML
+ 4. Создать внешний репозиторий c названием XML:
+$ git init XML
+$ pwd
+/d/GIT/XML1/XML
+ 5. Клонировать репозиторий XML на локальный компьютер:
+$ git clone https://github.com/VladimirTz/XML.git
+ 6. Внутри локального XML создать файл “new.xml”:
+$touch new.xml ; ls -la
+ 7. Добавить файл под гит:
+$ git status
+$ git add new.xml
+ 8. Закоммитить файл:
+$ git status
+$ git commit -m "creat new file xml"
+ 9. Отправить файл на внешний GitHub репозиторий:
+$ git status
+$ git push	
+ 10. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML:
+$ echo -e "<?xml version=\"1.0\" encoding=\"windows-1251\"?>\n<aboutme>\n    <infoaboutme>\n        <person>\n            <name>Vladimir</name>\n            <last_name>Tzelobanoff</last_name>\n            <patronymic>Alexsandrovich</patronymic>\n            <age>27</age>\n        </person>\n        <pets>\n            <pets_number>2</pets_number>\n        </pets>\n        <salary>1000</salary>\n    </infoaboutme>\n</aboutme>" > new.xml ; cat new.xml 
+ 11. Отправить изменения на внешний репозиторий:
+$ git status
+$ git commit -am "Update new.xml"
+$ git status
+$ git push
+ 12. Создать файл preferences.xml:
+touch preferences.xml
+ 13. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML:
+cat >> preferences.xml
+<?xml version="1.0" encoding="windows-1251"?>
+<myprefer>
+	<muvie>Professor</muvie>	
+	<soap_opera>Interns</soap_opera>	
+	<food>meat</food>	
+	<season>summer</season>		
+	<country>Italy</country>
+</myprefer>
+Ctrl+C
+ 14. Создать файл skils.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML:
+cat >> skils.xml
+<?xml version="1.0" encoding="windows-1251"?>
+<myskils>
+	<number1>1. Базовая теория (Что такое тестирование, багрепорты, документация, виды, методы, направления тестирования и т.п.) SDLC, STLC.</number1>
+	<number2>2. Что такое клиент-серверная архитектура.</number2>
+	<number3>3. HTTP Методы запросов на сервер.</number3>
+	<number4>4. Коды ответов HTTP сервера.</number4>
+	<number5>5. Структуры HTTP запросов и ответов.</number5>
+	<number6>6. Что такое JSON, XML. Их структура.</number6>
+	<number7>7. Тестирование API через Postman (JS, автотесты API).</number7>
+	<number8>8. Снятие и чтение логов c внешнего сервера.</number8>
+	<number9>9. Снифинг http web трафика через Charles и Fiddler.</number9>
+	<number10>10. Dev Tools веб браузеров (Google Chrome, FireFox).</number10>
+	<number11>11. VPN. (Как работает, зачем нужен, как использовать, варианты инструментов).</number11>
+	<number12>12. Мобильное тестирование.</number12>
+	<number13>13. Особенность iOS, Android, гайдлайны.</number13>
+	<number15>15. Сборка Android приложений на Android Studio.</number15>
+	<number16>16. ADB (управление андройд девайсами).</number16>
+	<number17>17. Настройка прокси и vpn на iOS и Android.</number17>
+	<number18>18. Перехват (сниффинг) мобильного трафика через Charles и Fiddler на iOS и Android.</number18>
+	<number19>19. Командная строка (terminal) Linux (копирование, создание, просмотр, перемещение файлов на серверах без графического интерфейса).</number19>
+	<number20>20. Основы bash скриптинг, автоматизация рутинных задач на сервере.</number20>
+	<number21>21. Доступ к удалённым серверам.</number21>
+	<number22>22. Основы SQL (Create, Delete, Drop, Insert Into, Select, From, Where, Join).</number22>
+	<number23>23. База данных Postgres (установка, настройка и использование).</number23>
+	<number24>24. Нереляционная база данных Redis (установка, настройка и использование).</number24>
+	<number25>25. Нагрузочное тестирование в Jmeter.</number25>
+	<number26>26. Методология разработки Scrum.</number26>
+	<number27>27. Python. (Изучение основ. Создание клиент серверного приложения).</number27>
+</myskils>
+Ctrl+C
+ 15. Сделать коммит в одну строку:
+$ git status ; git add preferences.xml skils.xml ; git status ; git commit -m "add two files"
+ 16. Отправить сразу 2 файла на внешний репозиторий:
+$ git push
+ 17. На веб интерфейсе создать файл bug_report.xml:
+
+ 18. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 19. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+ 20. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 21. Синхронизировать внешний и локальный репозиторий XML
