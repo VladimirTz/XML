@@ -84,8 +84,29 @@ $ git status ; git add preferences.xml skils.xml ; git status ; git commit -m "a
  16. Отправить сразу 2 файла на внешний репозиторий:
 $ git push
  17. На веб интерфейсе создать файл bug_report.xml:
-
- 18. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
- 19. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
- 20. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
- 21. Синхронизировать внешний и локальный репозиторий XML
+<?xml version="1.0" encoding="windows-1251"?>
+<headers>
+  <id>BR1</id>
+  <severity>Minor</severity>
+  <priority>Low</priority>
+  <envinroment>Windows10</envinroment>
+  <precondition>Открыть сайт</precondition>	
+  <title>Изменение размера шрифта в футере сайта при переходе в другие разделы</title>		
+  <link>link1</link>
+  <str name="Steps to reproduce">
+    <number1>1) Спуститься в футер страницы</number1>
+    <number2>2) В разделе M нажать кнопку I</number2>
+    <number3>3) Спуститься в футер открывшейся страницы</number3>
+  </str>
+  <er name="Expected result">Размер шрифта в футере не изменяется</er>
+  <ar name="Actual result">Размер шрифта уменьшился</ar>
+  <coments>No</coments>
+</headers>
+ 18. Сделать Commit changes (сохранить) изменения на веб интерфейсе:
+GitHub (Write a commit massage and press "Commit new file")
+ 19. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML:
+GitHub (Go to file "bug_report.xml" - Edit this file - Fill in the file)
+ 20. Сделать Commit changes (сохранить) изменения на веб интерфейсе:
+GitHub (Write a commit massage and press "Commit changes")
+ 21. Синхронизировать внешний и локальный репозиторий XML:
+$ git pull
