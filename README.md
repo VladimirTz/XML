@@ -1,5 +1,5 @@
 # XML
-# GIT Homework 1
+## GIT Homework 1 [DZgithubxml.txt](<https://github.com/VladimirTz/XML/blob/main/DZgithubxml.txt>)
 Для выполнения задания у вас должен быть установлен для Windows - GitBash.
 Создан аккаунт в GitHub
 
@@ -9,7 +9,7 @@
  2. Сценарий перенесите в этот файл.
  3. На против каждого действия - напишите команду в GitBash
 
-# XML
+## XML
  4. Создать внешний репозиторий c названием XML.
  5. Клонировать репозиторий XML на локальный компьютер.
  6. Внутри локального XML создать файл “new.xml”.
